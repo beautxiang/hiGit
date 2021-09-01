@@ -9,6 +9,7 @@ public class MyQueue {
         queue = new int[maxSize];
         front = -1;
         rear = -1;
+        int i = 100;
     }
 
     public boolean isEmpty() {
