@@ -12,6 +12,7 @@ public class Solution {
         Solution solution = new Solution();
         int[] a = new int[]{5, 1, 1};
         ListNode head = new ListNode(1);
+        System.out.println("12312312321321");
         ListNode l1 = new ListNode(1);
 
         String[] strings = new String[]{"a", "b", "c"};
