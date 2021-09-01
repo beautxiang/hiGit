@@ -11,6 +11,7 @@ public class MyQueue {
         rear = -1;
     }
 
+    //测试冲突
     public boolean isEmpty() {
         if (front == rear) {
             return true;
