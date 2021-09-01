@@ -12,7 +12,7 @@ public class MyQueue {
         int i = 100;
     }
 
-    //测试冲突
+    //测试冲突111
     public boolean isEmpty() {
         if (front == rear) {
             return true;
