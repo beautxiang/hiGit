@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LinkLIst/LinkLIst.iml" filepath="$PROJECT_DIR$/LinkLIst/LinkLIst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyStack/MyStack.iml" filepath="$PROJECT_DIR$/MyStack/MyStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myqueue/MyTree.iml" filepath="$PROJECT_DIR$/Myqueue/MyTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myqueue/Myqueue.iml" filepath="$PROJECT_DIR$/Myqueue/Myqueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree/Tree.iml" filepath="$PROJECT_DIR$/Tree/Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/代码.iml" filepath="$PROJECT_DIR$/.idea/代码.iml" />
+      <module fileurl="file://$PROJECT_DIR$/解决问题/解决问题.iml" filepath="$PROJECT_DIR$/解决问题/解决问题.iml" />
+    </modules>
+  </component>
+</project>
