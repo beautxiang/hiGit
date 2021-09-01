@@ -14,7 +14,7 @@ public class Solution {
         ListNode head = new ListNode(1);
         System.out.println("12312312321321");
         ListNode l1 = new ListNode(1);
-
+        System.out.println("41234213423");
         String[] strings = new String[]{"a", "b", "c"};
         List<String> list = Arrays.asList(strings);
         System.out.println(solution.checkInclusion("ab", "eidbaooo"));
