@@ -21,6 +21,7 @@ public class Solution {
         int[] c = new int[]{1, 2, 3};
         int[] b = new int[]{1, 2, 3};
         System.out.println(Arrays.equals(b, c));
+        System.out.println("123");
     }
 
     public boolean checkInclusion(String s1, String s2) {
