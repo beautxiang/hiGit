@@ -12,45 +12,33 @@ public class Solution {
         Solution solution = new Solution();
         int[] a = new int[]{5, 1, 1};
         ListNode head = new ListNode(1);
-        System.out.println("12312312321321");
         ListNode l1 = new ListNode(1);
-        System.out.println("41234213423");
         String[] strings = new String[]{"a", "b", "c"};
         List<String> list = Arrays.asList(strings);
-        System.out.println(solution.checkInclusion("ab", "eidbaooo"));
+        System.out.println(solution.triangleNumber(new int[]{2, 3, 4, 4}));
 
-        int[] c = new int[]{1, 2, 3};
-        int[] b = new int[]{1, 2, 3};
-        System.out.println(Arrays.equals(b, c));
-        System.out.println("123");
+
+
     }
 
-    public boolean checkInclusion(String s1, String s2) {
-        if(s1.length() > s2.length()){
-            return false;
-        }
-        int[] s1Num = new int[26];
-        int[] s2Num = new int[26];
-        for (int i = 0; i < s1.length(); i++) {
-            s1Num[s1.charAt(i) - 'a'] += 1;
-            s2Num[s2.charAt(i) - 'a'] += 1;
-        }
-        if (Arrays.equals(s1Num, s2Num)) {
-            return true;
-        }
-        int left = 0;
-        int right = s1.length();
-        while (right < s2.length()) {
-            s2Num[s2.charAt(left) - 'a'] -= 1;
-            s2Num[s2.charAt(right) - 'a'] += 1;
-            if (Arrays.equals(s1Num, s2Num)) {
-                return true;
+    public int triangleNumber(int[] nums) {
+        Arrays.sort(nums);
+        int count = 0;
+        for (int i = nums.length - 1; i >= 2; i--) {
+            int l = 0;
+            int r = i - 1;
+            while (r > l) {
+                if (nums[l] + nums[r] > nums[i]) {
+                    count += (r - l);
+                    r--;
+                } else {
+                    l++;
+                }
             }
-            left++;
-            right++;
         }
-        return false;
+        return count;
     }
+
 
 }
 
